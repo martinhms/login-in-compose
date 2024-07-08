@@ -14,14 +14,14 @@ import com.example.login_compose.login.login.HeaderLogin
 
 
 @Composable
-fun Login() {
+fun Login(loginViewModel: LoginViewModel) {
     Box(
         modifier = Modifier
             .fillMaxSize()
             .padding(20.dp)
     ) {
         HeaderLogin(Modifier.align(Alignment.TopEnd))
-        BodyLogin(Modifier.align(Alignment.Center))
+        BodyLogin(Modifier.align(Alignment.Center), loginViewModel)
         FooterLogin(Modifier.align(Alignment.BottomCenter))
     }
 

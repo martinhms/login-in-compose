@@ -11,6 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.login_compose.login.Login
+import com.example.login_compose.login.LoginViewModel
 import com.example.login_compose.ui.theme.LoginComposeTheme
 
 class MainActivity : ComponentActivity() {
@@ -20,7 +21,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Surface(color = MaterialTheme.colorScheme.background) {
 
-                Login()
+                Login(LoginViewModel())
 
             }
 
