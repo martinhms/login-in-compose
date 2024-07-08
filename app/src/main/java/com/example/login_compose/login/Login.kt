@@ -1,4 +1,4 @@
-package com.example.login_compose
+package com.example.login_compose.login
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -8,9 +8,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.login_compose.components.login.BodyLogin
-import com.example.login_compose.components.login.FooterLogin
-import com.example.login_compose.components.login.HeaderLogin
+import com.example.login_compose.login.login.BodyLogin
+import com.example.login_compose.login.login.FooterLogin
+import com.example.login_compose.login.login.HeaderLogin
 
 
 @Composable

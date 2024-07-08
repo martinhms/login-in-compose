@@ -1,4 +1,4 @@
-package com.example.login_compose.components.login
+package com.example.login_compose.login.login
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
