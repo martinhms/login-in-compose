@@ -1,4 +1,4 @@
-package com.example.login_compose.ui.theme
+package com.example.loginCompose.ui.theme
 
 import android.app.Activity
 import android.os.Build

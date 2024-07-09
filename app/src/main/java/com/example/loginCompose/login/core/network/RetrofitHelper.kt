@@ -1,4 +1,4 @@
-package com.example.login_compose.login.core.network
+package com.example.loginCompose.login.core.network
 
 import com.google.gson.Gson
 import retrofit2.Retrofit

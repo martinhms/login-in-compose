@@ -1,4 +1,4 @@
-package com.example.login_compose.login.data.network.response
+package com.example.loginCompose.login.data.network.response
 
 import com.google.gson.annotations.SerializedName
 

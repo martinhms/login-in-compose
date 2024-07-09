@@ -1,6 +1,6 @@
-package com.example.login_compose.login.domain
+package com.example.loginCompose.login.domain
 
-import com.example.login_compose.login.data.LoginRepository
+import com.example.loginCompose.login.data.LoginRepository
 
 class LoginUseCase {
     private val repository = LoginRepository()

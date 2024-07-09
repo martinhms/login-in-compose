@@ -1,6 +1,6 @@
-package com.example.login_compose.login.data.network
+package com.example.loginCompose.login.data.network
 
-import com.example.login_compose.login.core.network.RetrofitHelper
+import com.example.loginCompose.login.core.network.RetrofitHelper
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

@@ -1,4 +1,4 @@
-package com.example.login_compose.login.ui.components
+package com.example.loginCompose.login.ui.components
 
 import android.util.Patterns
 import androidx.compose.foundation.Image
@@ -39,8 +39,8 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.login_compose.R
-import com.example.login_compose.login.ui.LoginViewModel
+import com.example.loginCompose.R
+import com.example.loginCompose.login.ui.LoginViewModel
 
 @Composable
 fun BodyLogin(modifier: Modifier, loginViewModel: LoginViewModel) {

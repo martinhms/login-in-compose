@@ -1,4 +1,4 @@
-package com.example.login_compose.login.ui
+package com.example.loginCompose.login.ui
 
 import android.util.Log
 import android.util.Patterns
@@ -6,7 +6,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.login_compose.login.domain.LoginUseCase
+import com.example.loginCompose.login.domain.LoginUseCase
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 

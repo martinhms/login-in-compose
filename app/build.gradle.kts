@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.login_compose"
+    namespace = "com.example.loginCompose"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.login_compose"
+        applicationId = "com.example.loginCompose"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

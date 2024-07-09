@@ -1,4 +1,4 @@
-package com.example.login_compose.login.ui.components
+package com.example.loginCompose.login.ui.components
 
 import android.app.Activity
 import androidx.compose.foundation.clickable

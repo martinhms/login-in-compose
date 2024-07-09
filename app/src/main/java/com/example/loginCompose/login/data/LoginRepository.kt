@@ -1,6 +1,6 @@
-package com.example.login_compose.login.data
+package com.example.loginCompose.login.data
 
-import com.example.login_compose.login.data.network.LoginService
+import com.example.loginCompose.login.data.network.LoginService
 
 class LoginRepository {
 

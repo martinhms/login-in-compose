@@ -1,4 +1,4 @@
-package com.example.login_compose
+package com.example.loginCompose
 
 import org.junit.Test
 
