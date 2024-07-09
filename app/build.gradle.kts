@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    id("kotlin-kapt")
+    id("com.google.dagger.hilt.android") version "2.41"
 }
 
 android {
@@ -50,6 +52,11 @@ android {
 }
 
 dependencies {
+    /* we can also import in this way
+    implementation("com.google.dagger:hilt-android:2.41") // Or use an alias from your TOML
+    kapt("com.google.dagger:hilt-android-compiler:2.41") */
+    implementation(libs.hilt.android)
+    kapt(libs.hilt.compiler)
     implementation(libs.retrofit)
     implementation(libs.gson.converter)
     implementation(libs.androidx.compose.runtime.livedata)

@@ -12,6 +12,7 @@ materialIconsExtended = "1.6.8"
 compose_runtime_livedata_version = "1.2.1"
 retrofit_version = "2.9.0"
 gson_converter_version = "2.9.0"
+hilt = "2.41"
 
 
 [libraries]
@@ -33,9 +34,9 @@ androidx-material3 = { group = "androidx.compose.material3", name = "material3" 
 androidx-compose-runtime-livedata = { module = "androidx.compose.runtime:runtime-livedata", version.ref = "compose_runtime_livedata_version" }
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit_version" }
 gson_converter = { module = "com.squareup.retrofit2:converter-gson", version.ref = "gson_converter_version" }
-
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
+hilt-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt" }
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-
-
+hiltAndroidPlugin = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
