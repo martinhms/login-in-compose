@@ -8,9 +8,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.login_compose.login.ui.`login-components`.BodyLogin
-import com.example.login_compose.login.ui.`login-components`.FooterLogin
-import com.example.login_compose.login.ui.`login-components`.HeaderLogin
+import com.example.login_compose.login.ui.components.BodyLogin
+import com.example.login_compose.login.ui.components.FooterLogin
+import com.example.login_compose.login.ui.components.HeaderLogin
 
 
 @Composable

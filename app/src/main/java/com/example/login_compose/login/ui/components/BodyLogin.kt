@@ -1,4 +1,4 @@
-package com.example.login_compose.login.ui.`login-components`
+package com.example.login_compose.login.ui.components
 
 import android.util.Patterns
 import androidx.compose.foundation.Image
