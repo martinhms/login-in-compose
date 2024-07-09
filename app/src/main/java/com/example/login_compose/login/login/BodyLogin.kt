@@ -46,23 +46,18 @@ import com.example.login_compose.login.LoginViewModel
 @Composable
 fun BodyLogin(modifier: Modifier, loginViewModel: LoginViewModel) {
     val email: String by loginViewModel.email.observeAsState(initial = "")
-    var password by rememberSaveable {
-        mutableStateOf("")
-    }
-    var isLoginEnable by rememberSaveable {
-        mutableStateOf(false)
-    }
+    val password: String by loginViewModel.password.observeAsState(initial = "")
+    val isLoginEnable: Boolean by loginViewModel.isLoginEnable.observeAsState(initial = false)
 
     Column(modifier = modifier) {
         ImageLogo(modifier.align(Alignment.CenterHorizontally))
         Spacer(modifier = Modifier.size(16.dp))
         Email(email = email) {
-            loginViewModel.onLoginChanged(it)
+            loginViewModel.onLoginChanged(it, password = password)
         }
         Spacer(modifier = Modifier.size(4.dp))
         Password(password = password) {
-            password = it
-            isLoginEnable = enableLogin(email, password)
+            loginViewModel.onLoginChanged(email = email, password = it)
         }
         Spacer(modifier = Modifier.size(8.dp))
         ForgotPassword(Modifier.align(Alignment.End))
@@ -184,7 +179,6 @@ fun LoginDivider() {
         )
     }
 }
-
 
 @Composable
 fun SocialLogin() {
