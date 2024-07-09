@@ -50,7 +50,8 @@ android {
 }
 
 dependencies {
-
+    implementation(libs.retrofit)
+    implementation(libs.gson.converter)
     implementation(libs.androidx.compose.runtime.livedata)
     implementation(libs.androidx.material.icons.extended)
     implementation(libs.androidx.core.ktx)
