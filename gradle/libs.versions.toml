@@ -12,7 +12,7 @@ materialIconsExtended = "1.6.8"
 compose_runtime_livedata_version = "1.2.1"
 retrofit_version = "2.9.0"
 gson_converter_version = "2.9.0"
-hilt = "2.41"
+hilt = "2.51.1"
 
 
 [libraries]
