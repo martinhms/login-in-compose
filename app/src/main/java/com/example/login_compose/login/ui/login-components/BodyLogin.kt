@@ -1,4 +1,4 @@
-package com.example.login_compose.login.login
+package com.example.login_compose.login.ui.`login-components`
 
 import android.util.Patterns
 import androidx.compose.foundation.Image
@@ -28,7 +28,6 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -41,7 +40,7 @@ import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.login_compose.R
-import com.example.login_compose.login.LoginViewModel
+import com.example.login_compose.login.ui.LoginViewModel
 
 @Composable
 fun BodyLogin(modifier: Modifier, loginViewModel: LoginViewModel) {

@@ -1,4 +1,4 @@
-package com.example.login_compose.login
+package com.example.login_compose.login.ui
 
 import android.util.Patterns
 import androidx.lifecycle.LiveData
