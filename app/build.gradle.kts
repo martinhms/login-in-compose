@@ -1,14 +1,16 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    id("kotlin-kapt")
+    alias(libs.plugins.hiltAndroidPlugin)
 }
 
 android {
-    namespace = "com.example.login_compose"
+    namespace = "com.example.loginCompose"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.login_compose"
+        applicationId = "com.example.loginCompose"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -50,6 +52,11 @@ android {
 }
 
 dependencies {
+    /* we can also import in this way
+    implementation("com.google.dagger:hilt-android:2.41") // Or use an alias from your TOML
+    kapt("com.google.dagger:hilt-android-compiler:2.41") */
+    implementation(libs.hilt.android)
+    kapt(libs.hilt.compiler)
     implementation(libs.retrofit)
     implementation(libs.gson.converter)
     implementation(libs.androidx.compose.runtime.livedata)
